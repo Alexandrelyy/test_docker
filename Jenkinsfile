@@ -15,18 +15,12 @@ pipeline {
               echo 'testing the application...'
           }
       }
-   }
       stage("deploy") {
       
           steps{
             echo 'deploying the application...'
           }
       }
-   }
   }
 }
 
-node{
-    //groovy script
-}
-      
